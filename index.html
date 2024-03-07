@@ -20,7 +20,8 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: 'gradient-to-r from-[#FF8938] to-[#FF0000]',
+                        'gradient-start': '#FF8938',
+                        'gradient-end': '#FF0000'
                     }
                 }
             }
@@ -45,7 +46,14 @@
                         Your
                         Taste Buds.
                     </p>
-                    <button class="btn btn-primary">Explore More</button>
+                    <button
+                        class="flex items-center btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Explore
+                        More <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 19.7788L19.5 4.77881M19.5 4.77881H8.25M19.5 4.77881V16.0288" stroke="white"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
                 </div>
                 <div>
                     <img src="images/banner.png" class="sm:w-full min-w-72" />
@@ -147,7 +155,8 @@
                         have suffered
                         alteration in some form, by injected humour, or randomised words which don't look even slightly
                         believable. </p>
-                    <button class="btn btn-primary">Show All</button>
+                    <button class="btn bg-white">Show
+                        All</button>
                 </div>
             </div>
             <!-- review container -->
@@ -240,7 +249,8 @@
             </div>
             <div>
                 <span>Ready to get strated?</span>
-                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Get
+                    Started</button>
             </div>
         </div>
         <div class="footer p-10  text-base-content">
@@ -272,7 +282,8 @@
                     </label>
                     <div class="join">
                         <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
-                        <button class="btn btn-primary join-item">Subscribe</button>
+                        <button
+                            class="btn btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Subscribe</button>
                     </div>
                 </fieldset>
             </form>
